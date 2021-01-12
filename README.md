@@ -18,7 +18,8 @@ Behaviour Driven Rest API Framework implemented using Java, RestAssured and Cucu
 - @AllTests - To trigger all the scenarios at once
 
 ### Steps to setup the framework
-- Download the code from the repository.
+- Download the code from the repository by clicking on **Download Zip**
+- Unzip the downloaded folder
 - Place the folder in your local directory
 - Open command prompt from the same directory
 - In the command line, type the following command
