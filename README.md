@@ -52,5 +52,19 @@ For running other tags, replace the tag in the double quotes with one of the sup
 - Select the option **Invoke top level Maven-targets**
 - In the **Goals** textbox, enter the maven command
 ```console
- mvn test verify -Dcucumber.filter.tags="@AllTests"
+ test verify -Dcucumber.filter.tags="@"$tag""
 ```
+- Click on Save button
+
+## Parameterize the Jenkins Job
+- Go to the General Tab
+- Click the checkbox **This test is parameterized**
+- Select the option **Choice Parameter**
+- Enter the Name as the Name of the choice e.g. **tag**
+- Enter all the **tags currently supported** as the **options**
+
+## To trigger the job
+- Click on **Build Now**
+- Choose the tag as the option for running the tests.
+
+**The tests must be triggered successfully now :)**
