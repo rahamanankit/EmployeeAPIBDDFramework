@@ -22,4 +22,5 @@ Behaviour Driven Rest API Framework implemented using Java, RestAssured and Cucu
 - Place the folder in your local directory
 - Open command prompt from the same directory
 - In the command line, type the following command
-'''addad'''
+```console
+```
