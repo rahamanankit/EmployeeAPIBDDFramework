@@ -33,3 +33,24 @@ For running other tags, replace the tag in the double quotes with one of the sup
 
 ## Sample Generated Report
 ![Image of Sample Report](https://i.ibb.co/HgdNfKY/cucumber.png)
+
+## Creating a Jenkins Pipeline
+- Download the jenkins.war file
+- Go to the Downloads Directory
+- Open command prompt and type the following command
+```console
+ java -jar jenkins.war -httpPort=9090
+```
+- Open the browser once you get the message **Jenkins is fully up and running**
+- Navigate to **localhost:9090**
+- Setup the Jenkins Credentials
+- Create a new job by choosing **Freestyle Project** and enter a Job Name
+- Go to the General Tab
+- Under the **Source Code Management** header, choose the **git** option
+- Paste the current repository URL.
+- In the **Build** section, click on **Add Build Step**
+- Select the option **Invoke top level Maven-targets**
+- In the **Goals** textbox, enter the maven command
+```console
+ mvn test verify -Dcucumber.filter.tags="@AllTests"
+```
