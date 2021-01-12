@@ -26,3 +26,7 @@ Behaviour Driven Rest API Framework implemented using Java, RestAssured and Cucu
  mvn test verify -Dcucumber.filter.tags="@AllTests"
 ```
 For running other tags, replace the tag in the double quotes with one of the supported tags mentioned above.
+
+## Generated Cucumber Reports
+1. Navigate to Project Directory/target/cucumber-html-reports
+2. Open the **overview-features.html** file to view the reports.
