@@ -67,6 +67,4 @@ For running other tags, replace the tag in the double quotes with one of the sup
 - Click on **Build Now**
 - Choose the tag as the option for running the tests.
 
-**The tests must be triggered successfully now :smiley: **
-
- <font size="4"> Hello </font>
+#### The tests must be triggered successfully now :smiley: 
