@@ -1,5 +1,5 @@
 # EmployeeAPIBDDFramework
-This is a Behaviour Driven Rest API Framework implemented using Java, RestAssured and Cucumber on Maven Build Management Tool. The framework currently has 7 tests in total for testing all the CRUD operations using GET, POST, PUT and DELETE HTTP Methods.
+Behaviour Driven Rest API Framework implemented using Java, RestAssured and Cucumber on Maven Build Management Tool. The framework currently has 7 tests in total for testing all the CRUD operations using GET, POST, PUT and DELETE HTTP Methods.
 
 ## Features
 1. Test the GetEmployee API using GET HTTP Request
@@ -21,3 +21,5 @@ This is a Behaviour Driven Rest API Framework implemented using Java, RestAssure
 - Download the code from the repository.
 - Place the folder in your local directory
 - Open command prompt from the same directory
+- In the command line, type the following command
+'''addad'''
