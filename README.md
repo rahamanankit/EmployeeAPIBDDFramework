@@ -31,4 +31,5 @@ For running other tags, replace the tag in the double quotes with one of the sup
 1. Navigate to Project Directory/target/cucumber-html-reports
 2. Open the **overview-features.html** file to view the reports.
 
+## Sample Generated Report
 ![Image of Sample Report](https://i.ibb.co/HgdNfKY/cucumber.png)
