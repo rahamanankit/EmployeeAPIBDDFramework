@@ -23,4 +23,6 @@ Behaviour Driven Rest API Framework implemented using Java, RestAssured and Cucu
 - Open command prompt from the same directory
 - In the command line, type the following command
 ```console
+ mvn test verify -Dcucumber.filter.tags="@AllTests"
 ```
+For running other tags, replace the tag in the double quotes with one of the supported tags mentioned above.
