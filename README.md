@@ -1,4 +1,4 @@
-# EmployeeAPIBDDFramework
+# EmployeeAPI BDD Test Framework
 Behaviour Driven Rest API Framework implemented using Java, RestAssured and Cucumber on Maven Build Management Tool. The framework currently has 7 tests in total for testing all the CRUD operations using GET, POST, PUT and DELETE HTTP Methods.
 
 ## Features
@@ -67,4 +67,4 @@ For running other tags, replace the tag in the double quotes with one of the sup
 - Click on **Build Now**
 - Choose the tag as the option for running the tests.
 
-**The tests must be triggered successfully now :)**
+**The tests must be triggered successfully now :smiley: **
